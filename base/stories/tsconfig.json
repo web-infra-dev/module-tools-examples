@@ -1,0 +1,13 @@
+{
+  "extends": "../tsconfig.json",
+  "include": ["**/*"],
+  "compilerOptions": {
+    "jsx": "preserve",
+    "baseUrl": "../",
+    "paths": {
+      "base": ["./"],
+      "base/*": ["./*"]
+    }
+  },
+  "exclude": ["./dist"]
+}
